@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -16,6 +16,17 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+        </a>
+
+        {/* Hinzufügen eines zweiten Links */}
+        
+        <a
+          className="App-link"
+          href="/details"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Details
         </a>
       </header>
     </div>
