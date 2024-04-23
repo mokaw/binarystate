@@ -45,6 +45,16 @@
   font-size: 1.5vw;
 }
 
+.Details-link {
+  color: #61dafb;
+  text-decoration: none; 
+}
+
+.Details-link:hover{
+  color: #61dafb;
+  text-shadow:0 0 5px #92e5fc;
+}
+
 .Footer {
   color: white;
   padding: 25px;

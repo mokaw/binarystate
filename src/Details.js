@@ -36,7 +36,15 @@ function Details() {
         </div>
       </div>
       <footer className="Footer">
-        <b>Quelle:</b> https://de.wikipedia.org/wiki/React
+        <b>Quelle:</b>{" "}
+        <a
+          href="https://de.wikipedia.org/wiki/React"
+          className="Details-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Wikipedia - React
+        </a>
       </footer>
     </div>
   );
